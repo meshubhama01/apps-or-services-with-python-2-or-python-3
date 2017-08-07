@@ -1,7 +1,4 @@
 import re, urllib , os , sys #import all library used
-version = sys.version_info[0] #determine python version
-
-
  user_input = raw_input
  import urllib2
  urlopen = urllib2.urlopen

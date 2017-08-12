@@ -1,15 +1,15 @@
 import re, urllib , os , sys #import all library used
- user_input = raw_input
- import urllib2
- urlopen = urllib2.urlopen
- encode = urllib.urllenode
- retrieve = urllib.urlretrieve
- cleanup = urllib.urlcleanup()
- def screen_clear():
-    if os.name == 'nt':
-        os.system('cls')
-    else:
-        os.system('clear')
+user_input = raw_input
+import urllib2
+urlopen = urllib2.urlopen
+encode = urllib.urllenode
+retrieve = urllib.urlretrieve
+cleanup = urllib.urlcleanup()
+def screen_clear():
+   if os.name == 'nt':
+       os.system('cls')
+   else:
+       os.system('clear')
 #function to retrieve video title from given link
 def video_title(url):
     try:
